@@ -1,0 +1,31 @@
+<html>
+  <head>
+    <link href="static/css/styles.css" rel="stylesheet" />
+    <title>Demo</title>
+
+  </head>
+  <body>
+    <div align=center class='page_container'>
+      <h1 align=center>ACTION RECOGNITION<br>DEMO</h1>
+
+      <div class='video_container'>
+          <img id="bg" class='video' src="static/start_rec.jpg">
+      </div>
+
+      <form action="{{ url_for('form_url') }}"  align=center method="POST" class='form_url'>
+        <input name="text" class='text_box' value="{{ url_video }}">
+        <input type="submit" name='submit_url' class='button_url' value='Start recognition!'>
+      </form>
+
+      <form action="{{ url_for('form_cam') }}" align=center method="POST" class='form_cam'>
+        <label class='CAM_label'>
+            <input type="checkbox" class='CAM_checkbox' name="all_scores" value='cam' {{'checked="checked"' if box_scores else ""}}/>Display scores for all classes
+        </label>
+        <label class='CAM_label'>
+            <input type="checkbox" class='CAM_checkbox' name="activator" value='cam' {{'checked="checked"' if box_cam else ""}}/>Display class activation map
+        </label>
+        <input type="submit" name='submit_cam' class='button_url' value='Apply'>
+      </form>
+    </div>
+  </body>
+</html>

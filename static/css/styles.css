@@ -1,0 +1,96 @@
+
+
+body{
+    background-color: rgb(252, 255, 235);
+}
+h1 {
+    background-color: #057D9F; 
+    color: rgb(252, 252, 252);
+    height: auto;
+    width: 90%;
+    min-width: 430px;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 25px;
+    position: relative;
+    font: 60px 'Helvetica';
+    box-shadow: 0 3px 5px 4px  rgb(181, 208, 216);
+    border-radius: 0.1em/0.1em;
+}
+
+
+.page_container{
+    margin-left: 20%;
+    margin-right: 20%;
+    height: 100%;
+    /*background-color: #FF9640; */
+}
+.video_container{
+    height: auto;
+    width: 80%;
+    min-width: 400px;
+    position: relative;
+    background-color: #FFB300; 
+    border-radius: 0.1em/0.1em;
+    box-shadow: 0 3px 5px 4px  rgb(231, 195, 110);
+    margin-bottom: 25px;
+    padding: 2%;
+}
+ 
+.video{
+    width: 100%;
+    height: auto;
+    position: relative;
+    margin: 0px;
+}
+
+
+.form_url{
+    width: 80%;
+    height: auto;
+    background-color: #FFB300;
+    padding: 4px 4px 4px 4px;
+}    
+.text_box{
+    height: auto;
+    width: 60%;
+    font: 20px 'Helvetica';
+    background-color: #FFD573;
+    border-color: #A67400;
+    margin: 0 0 0 0;
+    min-width: 150px;
+
+}
+.button_url{
+    height: auto;
+    font: 20px 'Helvetica';
+    background-color: #057D9F;
+    color: rgb(252, 252, 252);
+    border: None;
+    margin: 0 0 0 0;
+    padding: 4px 4px 4px 4px ;
+}
+
+
+
+.form_cam{
+    width: 80%;
+    height: auto;
+    background-color: #FFB300;
+    padding: 4px 4px 4px 4px;
+}  
+
+.CAM_checkbox{
+    height: auto;
+    font: 20px 'Helvetica';
+    background-color: #FFD573;
+    border-color: #A67400;
+    margin: 0 0 0 0;
+
+}
+.CAM_label{
+    height: auto;
+    font: 20px 'Helvetica';
+    margin: 0 0 0 0;
+
+}
