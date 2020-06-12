@@ -94,3 +94,28 @@ h1 {
     margin: 0 0 0 0;
 
 }
+
+.form_class{
+    width: 80%;
+    height: auto;
+    background-color: #FFB300;
+    padding: 4px 4px 4px 4px;
+    margin-top: 10px;
+}  
+
+.form_classes_header{
+    font: 20px 'Helvetica';
+    margin-top: 0px;
+    margin-bottom: 5px;
+}
+
+.button_classes{
+    height: 50px;
+    width: 130px;
+    font: 20px 'Helvetica';
+    background-color: #057D9F;
+    color: rgb(252, 252, 252);
+    border: None;
+    margin: 5px 5px 5px 5px;
+    padding: 4px 4px 4px 4px ;
+}
